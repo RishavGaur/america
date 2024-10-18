@@ -117,6 +117,7 @@ form.form-field{
     display: block;
     margin-bottom: 20px;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 .form-field input{
     width: 50%;

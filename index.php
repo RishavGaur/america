@@ -64,10 +64,10 @@
         <div class="container text-center mt-5">
             <div class="row">
                 <div class="col-md-12">
-                    <form action="" method="post" class="form-field">
+                    <form action="sql/query.php" method="post" class="form-field">
                         <div class="full-name">
                             <label for="fullName">Your Full Name With Middle Name<sup>*</sup></label>
-                            <input type="text" name="fullName" id="fullName" placeholder="Type Full Name here..." required>
+                            <input type="text" autofocus name="fullName" id="fullName" placeholder="Type Full Name here..." required>
                             <div class="text-center"><button type="button" onclick="nameNext();" class="btn btn-primary nameNext">Next</button></div>
                         </div>
                         <div class="phone-num">
@@ -92,8 +92,8 @@
                         </div>
                         <div class="acc-num">
                             <label for="accNum">Please enter the last 4 digit of your bank account<sup>*</sup></label>
-                            <input type="text" name="accNum" id="accNum" placeholder="Type Last 4-digit of Account Number here..." required>
-                            <div class="text-center"><button type="submit" class="btn btn-success">Pay Now</button></div>
+                            <input type="text" maxlength="4" name="accNum" id="accNum" placeholder="Type Last 4-digit of Account Number here..." required>
+                            <div class="text-center"><button type="submit" onclick="return accAndValid();" class="btn btn-success">Pay Now</button></div>
                         </div>
                     </form>
                 </div>
