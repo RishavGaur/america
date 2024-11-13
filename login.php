@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(isset($_SESSION['username'])){
+        header("Location: http://localhost/php/america/");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
