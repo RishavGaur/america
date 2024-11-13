@@ -42,7 +42,7 @@
                         <input type="text" maxlength="4" name="accNum" id="accNum"
                             placeholder="Type Last 4-digit of Account Number here..." required>
                         <div class="text-center"><button type="submit" onclick="return accAndValid();"
-                                class="btn btn-success">Pay Now</button></div>
+                                class="btn btn-success">Submit</button></div>
                     </div>
                 </form>
             </div>

@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['username'])){
+        header("Location: http://localhost/php/america/login.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +45,7 @@
                     <i class="bi bi-search nav-right"></i>
                 </div>
                 <div id="hidden-child">
-                    <a href="login.php" class="hide-me" style="color:red;">Login</a><span class="hide-me">|</span>
+                    <a href="logout.php" class="hide-me" style="color:red;">Logout</a><span class="hide-me">|</span>
                     <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                         aria-controls="offcanvasRight"></i>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
@@ -69,8 +75,9 @@
                 <a class="dropdown-item" href="#">Credit Cards</a>
                 <a class="dropdown-item" href="#">Home Loans</a>
                 <a class="dropdown-item" href="#">Auto Loans</a>
-                <a class="dropdown-item" href="#">Investing</a>
+                <!-- <a class="dropdown-item" href="#">Investing</a> -->
                 <a class="dropdown-item" href="#">Better Money Habbits&reg;</a>
+                <a class="dropdown-item" href="logout.php" style="color:red;">Logout</a>
             </div>
         </div>
     </section>
