@@ -4,6 +4,9 @@
 }
 #navigation-bar{
     border-bottom: 1px  solid gainsboro;
+    position:sticky;
+    top: 0;
+    background-color: white;
 }
 /* First Navigation */
 #first-nav{

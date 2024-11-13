@@ -1,0 +1,190 @@
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding:0 10px 0 10px;
+}
+#main-nav a{
+    border-right: 1px solid whitesmoke;
+    padding-right: 15px;
+    text-decoration: none;
+    color:black;
+}
+.nav-menu-bar{
+    display: none;
+    cursor: pointer;
+    position: relative;
+}
+.nav-menu-bar i{
+    cursor: pointer;
+}
+.nav-menu-bar .bi-list{
+    display: none;
+    padding:4px;
+}
+.nav-menu-bar .bi-x{
+    display: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.menu-list{
+    position: absolute;
+    display: none;
+    left: 183px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+}
+.menu-list ul{
+    list-style-type: none;
+    margin-left: -30px;
+    margin-bottom: 0;
+}
+.menu-list li{
+    border-bottom: 1px solid lightgrey;
+    padding:5px;
+}
+.menu-list li:hover{
+    background-color: lightgray;
+}
+@media screen and (max-width:1200px){
+    #main-nav .nav-menu{
+        display: none;
+    }
+    .nav-menu-bar, .nav-menu-bar .bi-list{
+        display: block;
+    }
+}
+
+/* Main Content */
+#main-content{
+    border: 1px solid lightgray;
+    border-top: none;
+    margin-bottom: 20px;
+}
+#main-content a{
+    text-decoration: none;
+}
+
+/* Reward Box */
+.reward-box{
+    background-color: black;
+    color:white;
+    height: 80px;
+    width: 70px;
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.rate-1{
+    border-bottom: 2px solid blue;
+}
+
+.rate-opt .link-2{
+    color:black;
+}
+.ratings{
+    border-bottom: 1px solid black;
+}
+.price{
+    font-weight: 550;
+}
+.open-ac img{
+    height: 35px;
+}
+.open-ac{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding:10px 15px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.open-ac p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+/* Activity Box */
+.activity-center{
+    background-color: antiquewhite;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    row-gap: 5px;
+}
+
+.activity-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.activity-container .ic-menu{
+    background-color: white;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+}
+.activity-container .ic-menu img{
+    height: 30px;
+}
+.activity-container .ic-menu p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.65rem;
+    text-align: center;
+}
+.oth-ic-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+.oth-ic-menu .ic-menu img{
+    height: 35px;
+}
+.oth-ic-menu .ic-menu{
+    display: flex;
+    column-gap: 10px;
+    width: 150px;
+}
+.feat-ic-menu{
+    background-color: antiquewhite;
+    padding:3px;
+    padding-bottom: 0px;
+    width: 20vw; 
+    border-bottom: 3px solid antiquewhite;
+}
+.feat-ic-menu .ic-menu img{
+    height: 35px;
+}
+.feat-ic-menu .ic-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.feat-ic-menu .feat-cont img{
+    height: 120px;
+}
+.feat-ic-menu .feat-cont{
+    background-color: white;
+    padding:3px 15px;
+}
+@media screen and (max-width: 795px){
+    .activity-center,.feat-ic-menu{
+        width: 100%;
+    }
+    .oth-ic-menu .ic-menu p{
+        font-size: 0.8rem;
+    }
+}

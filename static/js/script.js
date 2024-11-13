@@ -79,3 +79,25 @@ function accAndValid() {
     }
     return valid;
 }
+
+function smallNav(){
+    let line= document.querySelector(".menu-line");
+    let canc= document.querySelector(".menu-canc");
+    let clc= document.querySelector(".nav-menu-bar");
+    let menu= document.querySelector(".menu-list");
+    let clicks=0;
+    clc.addEventListener("click",(e)=>{
+        if(clicks==0){
+            clicks=1;
+            line.style.display="none";
+            canc.style.display="block";
+            menu.style.display="block";
+        }else{
+            clicks=0;
+            line.style.display="block";
+            canc.style.display="none";
+            menu.style.display="none";
+        }
+    });
+}
+smallNav();

@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.login-container{
+    background-color: white;
+    display: inline-block;
+    width: 35%;
+    border-radius: 10px;
+}
+.login-container h1{
+    text-decoration: underline;
+}
+.login-container input{
+    width: 100%;
+    padding:8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+@media screen and (max-width:900px){
+    .login-container{
+        width: 50%;
+    }
+}
+@media screen and (max-width:572px){
+    .login-container{
+        width: 90%;
+    }
+}
