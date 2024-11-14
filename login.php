@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(isset($_SESSION['username'])){
-        header("Location: http://localhost/php/america/");
+        header("Location: /");
     }
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,7 @@
                     session_start();
                     $_SESSION['id']= $row['id'];
                     $_SESSION['username']= $row['username'];
-                    header("Location: http://localhost/php/america/index.php");
+                    header("Location: /");
                 }
             }else{
                 echo "<div class='alert alert-danger'>Username and Password are not Matched.</div>";
