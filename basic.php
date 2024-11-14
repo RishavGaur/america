@@ -64,6 +64,7 @@
                                 <li><a class="dropdown-item" href="#">Auto Loans</a></li>
                                 <li><a class="dropdown-item" href="#">Investing</a></li>
                                 <li><a class="dropdown-item" href="#">Better Money Habbits&reg;</a></li>
+                                <li><a class="dropdown-item" href="logout.php" style="color:red;">Logout</a></li>
                             </ul>
                         </div>
                     </div>
