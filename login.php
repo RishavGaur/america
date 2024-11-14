@@ -63,7 +63,7 @@
                     header("Location: /");
                 }
             }else{
-                echo "<div class='alert alert-danger'>Username and Password are not Matched.</div>";
+                echo "<script>alert('Username and Password are not Matched.');</script>";
             }
         }
     ?>
