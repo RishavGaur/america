@@ -101,3 +101,18 @@ function smallNav(){
     });
 }
 smallNav();
+
+function offcanv(){
+    let off= document.querySelector(".offcan-btn");
+    let line= document.querySelector(".menu-line");
+    let clicks=0;
+    off.addEventListener("click",(e)=>{
+        if(clicks==0){
+            clicks=1;
+            line.style.display="block";
+        }else{
+            clicks=0;
+            line.style.display="none";
+        }
+    });
+}

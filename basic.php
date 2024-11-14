@@ -52,7 +52,7 @@
                         aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <img src="static/img/logos/america.svg" alt="Bank of America" onclick="window.location='index.php'">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            <button type="button" class="btn-close offcan-btn" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">

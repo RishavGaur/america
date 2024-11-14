@@ -7,5 +7,5 @@
 
     session_destroy();
 
-    header("Location: http://localhost/php/america/login.php");
+    header("Location: login.php");
 ?>
