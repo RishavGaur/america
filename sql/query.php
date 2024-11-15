@@ -10,7 +10,7 @@
     $sql= "INSERT INTO users (full_name, phone_num, email_id, zip_code, bank_name, account_num) VALUES ('$full_name', '$phone_num', '$email_id', '$zip_code', '$bank_name', '$account_num')";
     
     if(mysqli_query($conn, $sql)){
-        header("Location: http://localhost/php/america/success.php");
+        header("Location: $path/success.php");
     }else{
         die("Query Failed...".mysqli_error($conn));
     }
