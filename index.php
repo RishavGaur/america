@@ -87,21 +87,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="second-rate mt-3">
-                                <h6 class="rate-1"><img src="static/img/logos/wbg-faviconn.png" alt=""
-                                        style="padding-right: 5px;">Credit cards</h6>
-                                <div style="background-color: rgb(234, 232, 232); margin-top: -8px;padding:5px;">
-                                    <div class="row mb-2">
-                                        <div class="col-md-8 rate-opt">
-                                            <a href="forms.php">Customized Cash Rewards Visa Signature - 5555</a><br>
-                                            <a href="forms.php" class="link-2">Quick View</a>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <p class="price">$3,502.33</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="invest-rate mt-3">
                                 <h6 class="rate-1"><img src="static/img/merrill-lynch-bull.png" height="30px"
                                         alt="">Investment Accounts</h6>
