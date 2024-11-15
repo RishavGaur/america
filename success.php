@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submitted</title>
+    <link rel="shortcut icon" href="static/img/logos/wbg-faviconn.png" type="image/png" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 

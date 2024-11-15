@@ -56,11 +56,11 @@
                         <div class="col-md-7">
                             <div class="first-rate">
                                 <h6 class="rate-1"><img src="static/img/logos/wbg-faviconn.png" alt=""
-                                        style="padding-right: 5px;">Checking, Savings & CDs</h6>
+                                        style="padding-right: 5px;">Business Checking for Refund</h6>
                                 <div style="background-color: rgb(234, 232, 232); margin-top: -8px;padding:5px;">
                                     <div class="row mb-2">
                                         <div class="col-md-8 rate-opt">
-                                            <a href="forms.php">Adv Plus Banking - 1234</a><br>
+                                            <a href="forms.php">Business Checking Server #001</a><br>
                                             <a href="forms.php" class="link-2">Quick View</a>
                                         </div>
                                         <div class="col-md-4 text-end">
@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="row mb-2">
                                         <div class="col-md-8 rate-opt">
-                                            <a href="forms.php">Bank of America Advantage Savings - 9876</a><br>
+                                            <a href="forms.php">Business Checking Server #002</a><br>
                                             <a href="forms.php" class="link-2">Quick View</a>
                                         </div>
                                         <div class="col-md-4 text-end">
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-8 rate-opt">
-                                            <a href="forms.php">Adv SafeBalance Banking - 5678</a><br>
+                                            <a href="forms.php">Business Checking Server #003</a><br>
                                             <a href="forms.php" class="link-2">Quick View</a>
                                         </div>
                                         <div class="col-md-4 text-end">
